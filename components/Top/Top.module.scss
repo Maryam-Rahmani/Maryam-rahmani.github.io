@@ -1,0 +1,20 @@
+$breakpoint: 415px;
+
+
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 1200px;
+  height: 695px;
+  flex: none;
+  order: 0;
+  flex-grow: 0; 
+
+  @media screen and (max-width: $breakpoint) {
+    width: 414px;
+    height: 390px;
+  }
+}

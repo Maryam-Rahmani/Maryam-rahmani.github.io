@@ -1,0 +1,24 @@
+$breakpoint: 415px;
+
+
+.sub{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 1200px;
+  height: 373px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  @media screen and (max-width: $breakpoint) {
+    width: 382px;
+    height: 157.97px;
+    border-radius: 10.1641px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}

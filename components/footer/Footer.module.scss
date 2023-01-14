@@ -1,0 +1,214 @@
+$breakpoint: 415px;
+
+.footer{
+  width: 1440px;
+  height: 409px;
+  background: #FFFFFF;
+  position: relative;
+  flex: none;
+  order: 8;
+  flex-grow: 0; 
+
+  .footer_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 250px;
+    height: 189px;
+    left: 1070px;
+    top: 48px;
+
+    .footer_logo_title{
+      width: 44px;
+      height: 25px;
+      font-family: 'IRANSans';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: right;
+      color: #292929;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .footer_logo_text{
+      width: 250px;
+      height: 44px;
+      font-family: 'IRANSans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: right;
+      color: #474747;
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+    }
+
+    @media screen and (max-width: $breakpoint) {
+      display: none;
+    }
+
+
+  }
+
+  .footer_line{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 120px;
+    bottom: 56px;
+    border: 1px solid #AB8BD1;
+    @media screen and (max-width: $breakpoint) {
+      position: static;
+      width: 382px;
+    }
+
+
+  }
+
+  .footer_product_vit{
+    .footer_product{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 16px;
+      position: absolute;
+      width: 113px;
+      height: 199px;
+      left: 672px;
+      top: 48px;
+
+
+      .footer_product_title{
+        width: 113px;
+        height: 25px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: right;
+        color: #292929;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+  
+      .footer_product_text{
+        height: 22px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #4F4F4F;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+      }
+
+      @media screen and (max-width: $breakpoint) {
+        position: static;
+      }
+
+    }
+  
+    .footer_vit{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 16px;
+      position: absolute;
+      width: 105px;
+      height: 165px;
+      left: 922px;
+      top: 48px;
+  
+      .footer_product_text{
+        height: 22px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #4F4F4F;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+
+        @media screen and (max-width: $breakpoint) {
+          position: static;
+        }
+  
+    
+      }
+
+      @media screen and (max-width: $breakpoint) {
+        position: static;
+      }
+
+  
+    }
+
+    @media screen and (max-width: $breakpoint) {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 40px;
+      width: 382px;
+      height: 199px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+
+  .footer_product_vit{
+    display: flex;
+    flex-direction: row;
+    width: 414px;
+    justify-content: space-between;
+  }
+  
+
+  .footer_text{
+    position: absolute;
+    width: 221px;
+    height: 22px;
+    right: 121px;
+    bottom: 22px;
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #474747;
+  }
+
+  @media screen and (max-width: $breakpoint) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    width: 414px;
+    height: 618px;
+    background: #FFFFFF;
+    flex: none;
+    order: 10;
+    flex-grow: 0;
+  }
+}

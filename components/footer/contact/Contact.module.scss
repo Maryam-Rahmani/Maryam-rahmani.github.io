@@ -1,0 +1,145 @@
+$breakpoint: 415px;
+
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 188px;
+    height: 223px;
+    left: 318px;
+    top: 48px;
+
+    .footer_contact_text{
+      width: 100px;
+      height: 25px;
+      font-family: 'IRANSans';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: right;
+      color: #292929;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .footer_contact_info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 12px;
+      width: 188px;
+      height: 110px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      
+      .footer_contact_info_tel{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px; 
+        width: 133px;
+        height: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        .footer_contact_info_tel_text{
+          width: 101px;
+          height: 19px;
+          font-family: 'IRANSans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 19px;
+          color: #717171;
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+        }
+      }
+
+      .footer_contact_info_phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 97px;
+        height: 24px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        .footer_contact_info_phone_text{
+          width: 65px;
+          height: 19px;
+          font-family: 'IRANSans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 19px;
+          color: #717171;
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+        }
+      }
+
+      .footer_contact_info_map{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 188px;
+        height: 38px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+
+        .footer_contact_info_map_text{
+          width: 156px;
+          height: 38px;
+          font-family: 'IRANSans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 19px;
+          text-align: right;
+          color: #717171;
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+        }
+      }
+    }
+
+    .footer_contact_social{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 16px 0px 0px;
+      gap: 12px;
+      width: 144px;
+      height: 56px;
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+    }
+
+    
+    @media screen and (max-width: $breakpoint) {
+      position: static;
+    }
+  }

@@ -1,0 +1,23 @@
+$breakpoint: 415px;
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  width: 1200px;
+  height: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(189, 182, 183, 0.25);
+  border-radius: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  @media screen and (max-width: $breakpoint) {
+    width: 415px;
+    height: 97;
+  }
+}

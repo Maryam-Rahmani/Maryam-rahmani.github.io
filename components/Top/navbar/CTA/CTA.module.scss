@@ -1,0 +1,171 @@
+$breakpoint: 415px;
+
+.CTA{
+  height: 48px;
+  width: 444px;
+  left: 24px;
+  top: 16px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 444px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  .CTA_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 254px;
+    height: 48px;
+    background: #F7F7F7;
+    border-radius: 32px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
+    .CTA_form_input_responsive{
+      display: none;
+      @media screen and (max-width: $breakpoint) {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 159px;
+        height: 24px;
+        border-radius: 4px;
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+        &:focus{
+          outline: none;
+        }
+      }
+
+    }
+
+    .CTA_form_input{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0px;
+      gap: 4px;
+      width: 200px;
+      height: 24px;
+      border-radius: 4px;
+      border: none;
+      background: #F7F7F7;
+      flex: none;
+      order: 0;
+      flex-grow: 1;
+      &:focus{
+        outline: none;
+      }
+      @media screen and (max-width: $breakpoint) {
+        display: none;
+       }
+      
+    }
+
+    @media screen and (max-width: $breakpoint) {
+      width: 213px;
+     }
+  }
+
+  .CTA_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 126px;
+    height: 48px;
+    background: linear-gradient(252.18deg, #D72339 0.28%, #F23B51 93.8%);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    border: none;
+    flex-grow: 0;
+
+    .CTA_button_in{
+      width: 78px;
+      height: 22px;
+      font-family: 'IRANSans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      display: inline-block;
+      color: #FFFFFF;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    @media screen and (max-width: $breakpoint) {
+     display: none;
+    }
+  }
+
+  .CTA_button_cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 4px;
+    width: 48px;
+    height: 48px;
+    background: #F7F7F7;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    .CTA_cart_img{
+      @media screen and (max-width: $breakpoint) {
+        width: 24px;
+        height: 24px;
+       }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint) {
+    width: 309px;
+   }
+
+   .CTA_login{
+    display: none;
+    @media screen and (max-width: $breakpoint) {
+      display: block;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      gap: 4px;
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+     }
+   }
+}

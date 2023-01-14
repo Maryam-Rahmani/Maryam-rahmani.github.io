@@ -1,0 +1,40 @@
+$breakpoint: 415px;
+
+.responsive{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+  width: 415px;
+  height: 49px;
+  filter: drop-shadow(0px 0px 24px rgba(189, 182, 183, 0.25));
+  border-radius: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0; 
+  display: none;
+
+  .responsive_text{
+    width: 44px;
+    height: 25px;
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 25px;
+    color: #C2123C;
+    flex: none;
+    order: 0;
+   flex-grow: 0;
+  }
+
+
+  @media screen and (max-width: $breakpoint) {
+    display: block;
+
+  }
+  }
+
+ 

@@ -1,0 +1,25 @@
+$breakpoint: 415px;
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 120px 0px;
+  gap: 64px;
+  position: relative;
+  width: 1440px;
+  height: 3979px;
+  background: #FFFFFF;
+
+  @media screen and (max-width: $breakpoint) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 24px;
+    position: relative;
+    width: 415px;
+    height: 3330.97px;
+    background: #FFFFFF;
+  }
+}

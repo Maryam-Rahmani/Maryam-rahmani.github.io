@@ -1,0 +1,132 @@
+.product_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  width: 172px;
+  height: 218px;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+  
+  .product_price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 140px;
+    height: 58px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    .product_price_up{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 2px;
+      width: 109px;
+      height: 28px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+
+      .product_price_up_left{
+        width: 28px;
+        height: 19px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: right;
+        color: #4F4F4F;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+
+      .product_price_up_right{
+        width: 79px;
+        height: 28px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: right;
+        color: #333333;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+
+    .product_price_down{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+      gap: 2px;
+      width: 140px;
+      height: 30px;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+
+      .product_price_down_left{
+        width: 87px;
+        height: 22px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-decoration-line: line-through;
+        color: #BDBDBD;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+
+      .product_price_down_discount{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 4px 12px;
+        width: 48px;
+        height: 30px;
+        background: linear-gradient(252.18deg, #D72339 0.28%, #F23B51 93.8%);
+        border-radius: 80px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        .product_price_down_text{
+          width: 24px;
+          height: 22px;
+          font-family: 'IRANSans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 22px;
+          text-align: center;
+          color: #FFFFFF;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+      }
+    }
+
+
+  }
+}

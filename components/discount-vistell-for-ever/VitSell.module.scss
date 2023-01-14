@@ -1,0 +1,233 @@
+$breakpoint: 415px;
+
+.vit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 24px;
+  width: 1200px;
+  height: 299px;
+  flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 100px;
+  
+
+  .vit_slider{
+    width: 888px;
+    position: relative;
+    height: 155px;
+    background: linear-gradient(239.65deg, #CE273B 14.24%, #F23B51 126.89%);
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    
+    @media screen and (max-width: $breakpoint) {
+      padding-bottom: 0;
+      justify-self: end;
+
+    }
+
+    .vit_slider_info{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      position: absolute;
+      width: 450px;
+      height: 91px;
+      right: 32px;
+      top: 32px;
+
+      @media screen and (max-width: $breakpoint) {
+        position: static;
+        justify-self: center;
+      }
+
+      .vit_slider_info_text{
+        width: 276px;
+        height: 28px;
+        font-family: 'IRANSans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: right;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+      }
+
+      .vit_slider_info_download_box{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0px;
+        gap: 12px;
+        width: 450px;
+        height: 48px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        @media screen and (max-width: $breakpoint) {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 351px;
+          height: 96px;
+        }
+
+        .vit_slider_info_download_two{
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: space-between;
+          width: 300px;
+        }
+
+        .vit_slider_info_download_bazar{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 12px 16px;
+          gap: 8px;
+          width: 133px;
+          height: 48px;
+          background: rgba(255, 255, 255, 0.08);
+          border-radius: 24px;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+
+          .vit_slider_info_bazar_text{
+            width: 69px;
+            height: 22px;
+            font-family: 'IRANSans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: right;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+        }
+
+        .vit_slider_info_download_miket{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 12px 16px;
+          gap: 8px;
+          width: 150px;
+          height: 48px;
+          background: rgba(255, 255, 255, 0.08);
+          border-radius: 24px;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+
+          .vit_slider_info_miket_text{
+            width: 86px;
+            height: 22px;
+            font-family: 'IRANSans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: right;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+        }
+
+        .vit_slider_info_download_right{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 12px 16px;
+          gap: 8px;
+          width: 143px;
+          height: 48px;
+          background: rgba(255, 255, 255, 0.08);
+          border-radius: 24px;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+
+          .vit_slider_info_right_text{
+            width: 79px;
+            height: 22px;
+            font-family: 'IRANSans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: right;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+        }
+        @media screen and (max-width: $breakpoint) {
+          width: 351px;
+          height: 96px;
+        }
+      }
+    }
+
+    .vit_slider_mobile{
+      position: absolute;
+      width: 230px;
+      height: 277px;
+      left: 56px;
+      bottom: 0px;
+
+      .vit_slider_mobile_img{
+        position: absolute;
+        width: 230px;
+        height: 277px;
+        left: 56px;
+        bottom: 0px;
+      }
+
+      @media screen and (max-width: $breakpoint) {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: $breakpoint) {
+      padding: 16px;
+      order: 8;
+      gap: 8px;
+      width: 383px;
+      height: 186px;
+      padding-right: 0;
+    }
+  }
+  @media screen and (max-width: $breakpoint) {
+    padding: 16px;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    gap: 8px;
+    width: 383px;
+    height: 200px;
+    flex: none;
+    order: 9;
+    flex-grow: 0;
+  }
+ 
+}
